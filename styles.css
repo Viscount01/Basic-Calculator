@@ -53,3 +53,9 @@ form input.operator{
 .discription{
     
 }
+
+@media (max-width: 480px) {
+    .container{
+        width: 390px;
+    }
+}
