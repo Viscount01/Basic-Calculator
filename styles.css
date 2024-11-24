@@ -11,11 +11,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
 }
 .calculator{
     background: #3a4452;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
+    margin: auto;
+
 }
 .calculator form input{
     border: 0;
@@ -50,12 +53,19 @@ form input.equal{
 form input.operator{
     color: #33ffd8;
 }
-.discription{
-    
-}
 
 @media (max-width: 480px) {
     .container{
         width: 390px;
     }
 }
+h1{
+    background-color: #e3f9ff;
+    justify-content: center;
+    text-align: center;
+}
+p{
+   background-color: #e3f9ff;
+}
+
+
